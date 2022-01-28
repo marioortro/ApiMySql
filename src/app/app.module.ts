@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { GameListComponent } from './components/game-list/game-list.component';
 import { GameFormComponent } from './components/game-form/game-form.component';
+import { PruebaComponent } from './components/prueba/prueba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     GameListComponent,
-    GameFormComponent
+    GameFormComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
